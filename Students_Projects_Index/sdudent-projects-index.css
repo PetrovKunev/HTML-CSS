@@ -1,0 +1,232 @@
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --background-color: #f3f4f6;
+    --class-12b-color: #3b82f6;
+    --class-12d-color: #6366f1;
+    --class-12e-color: #8b5cf6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.class-section {
+    margin-bottom: 3rem;
+}
+
+.class-header {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+}
+
+.class-12b .class-header {
+    background: var(--class-12b-color);
+}
+
+.class-12d .class-header {
+    background: var(--class-12d-color);
+}
+
+.class-12e .class-header {
+    background: var(--class-12e-color);
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.project-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    border-top: 4px solid transparent;
+}
+
+.class-12b .project-card {
+    border-top-color: var(--class-12b-color);
+}
+
+.class-12d .project-card {
+    border-top-color: var(--class-12d-color);
+}
+
+.class-12e .project-card {
+    border-top-color: var(--class-12e-color);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.project-card p {
+    color: #4b5563;
+    margin-bottom: 1rem;
+}
+
+.project-card .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.tag {
+    background: #e5e7eb;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    color: #374151;
+}
+
+.visit-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.class-12b .visit-btn {
+    background-color: var(--class-12b-color);
+}
+
+.class-12d .visit-btn {
+    background-color: var(--class-12d-color);
+}
+
+.class-12e .visit-btn {
+    background-color: var(--class-12e-color);
+}
+
+.visit-btn:hover {
+    filter: brightness(90%);
+    transform: translateY(-2px);
+}
+
+.search-container {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#searchInput {
+    width: 100%;
+    max-width: 500px;
+    padding: 0.75rem;
+    border: 2px solid #e5e7eb;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.class-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.class-filter-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.class-filter-btn.active {
+    transform: scale(1.05);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.class-filter-btn[data-class="all"] {
+    background-color: #22c55e;
+    /* примерно приятен зелен нюанс */
+    color: #fff;
+    /* ако искаш текста да е бял */
+}
+
+.class-filter-btn[data-class="12b"] {
+    background-color: var(--class-12b-color);
+}
+
+.class-filter-btn[data-class="12d"] {
+    background-color: var(--class-12d-color);
+}
+
+.class-filter-btn[data-class="12e"] {
+    background-color: var(--class-12e-color);
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .class-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .class-filter-btn {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+.page-footer {
+    background-color: #9459d8;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.page-footer p {
+    margin: 0;
+}

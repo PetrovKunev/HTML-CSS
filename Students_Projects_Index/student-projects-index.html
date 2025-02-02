@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Индекс на Ученически Проекти</title>
+    <link rel="stylesheet" href="sdudent-projects-index.css">
+    <script src="student-projects-index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Индекс на Ученически Проекти</h1>
+        <p>Годишни проекти на 12 клас</p>
+    </header>
+
+    <main class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Търсете по име на ученик или тема на проект...">
+        </div>
+
+        <div class="class-filters">
+            <button class="class-filter-btn active" data-class="all">Всички класове</button>
+            <button class="class-filter-btn" data-class="12b">12Б клас</button>
+            <button class="class-filter-btn" data-class="12d">12Д клас</button>
+            <button class="class-filter-btn" data-class="12e">12Е клас</button>
+        </div>
+
+        <div class="class-section class-12b">
+            <div class="class-header">
+                <h2>12Б клас</h2>
+            </div>
+            <div class="projects-grid" id="projects12B"></div>
+        </div>
+
+        <div class="class-section class-12d">
+            <div class="class-header">
+                <h2>12Д клас</h2>
+            </div>
+            <div class="projects-grid" id="projects12D"></div>
+        </div>
+
+        <div class="class-section class-12e">
+            <div class="class-header">
+                <h2>12Е клас</h2>
+            </div>
+            <div class="projects-grid" id="projects12E"></div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p>Випуск 2025 - 127СУ &copy; <span id="currentYear"></span></p>
+    </footer>
+    
+</body>
+
+</html>
