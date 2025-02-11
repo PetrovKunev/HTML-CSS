@@ -25,8 +25,11 @@ const projects = {
         {
             name: "Раян Иванов, София Иванова",
             title: "Калкулатор",
-            description: "...",
-            tags: ["HTML", "CSS", "JavaScript", "NoSQL"],
+            description: "Калкулатор, който обхваща " +
+                        "основните клонове на математиката " +
+                        "и предоставя инструменти за " +
+                        "изчисления.",
+            tags: ["HTML", "CSS", "JavaScript", "NoSQL", "Vue.js", "Tailwind CSS", "Math.js", "Аppwrite" ],
             url: "#"
         },
         {
