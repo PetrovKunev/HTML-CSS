@@ -23,10 +23,10 @@ const projects = {
             url: "#"
         },
         {
-            name: "Раян Иванов, София",
-            title: "Онлайн Магазин",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
-            tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
+            name: "Раян Иванов, София Иванова",
+            title: "Калкулатор",
+            description: "...",
+            tags: ["HTML", "CSS", "JavaScript", "NoSQL"],
             url: "#"
         },
         {
