@@ -37,7 +37,7 @@ const projects = {
             title: "Онлайн Магазин",
             description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
             tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
-            url: "#"
+            url: "https://127sou.com/"
         },
         {
             name: "Мария Велчева, Рая Цонева",
