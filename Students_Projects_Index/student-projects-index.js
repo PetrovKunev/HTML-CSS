@@ -4,22 +4,22 @@ const projects = {
         {
             name: "Калоян Керемедчиев, Кубрат Кирилов",
             title: "Информативен сайт за играта белот",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
-            tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
+            description: "Сайт, който представя правилата на играта белот, както и стратегии за игра.",
+            tags: ["HTML", "CSS", "JavaScript"],
             url: "#"
         },
         {
             name: "Елена Гюрова, Стела Пожарлиева",
-            title: "Онлайн Магазин",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
-            tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
+            title: "NatureX",
+            description: "",
+            tags: ["HTML", "CSS", "JavaScript"],
             url: "#"
         },
         {
             name: "Димитър Цонев, Кристиян Георгиев",
-            title: "Онлайн Магазин",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
-            tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
+            title: "Quiz App",
+            description: "Приложение за викторина с въпроси и отговори по различни теми.",
+            tags: ["HTML", "CSS", "JavaScript"],
             url: "#"
         },
         {
@@ -30,19 +30,19 @@ const projects = {
                         "и предоставя инструменти за " +
                         "изчисления.",
             tags: ["HTML", "CSS", "JavaScript", "NoSQL", "Vue.js", "Tailwind CSS", "Math.js", "Аppwrite" ],
-            url: "#"
+            url: "https://premium-calculator-rho.vercel.app/"
         },
         {
             name: "Мартин Андонов, Филип Иванов",
-            title: "Онлайн Магазин",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
-            tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
-            url: "https://127sou.com/"
+            title: "Листовки",
+            description: "Сайт, който представя информация за листовките и предоставя възможност за упражняване на тестове.",
+            tags: ["HTML", "CSS", "JavaScript"],
+            url: "#"
         },
         {
             name: "Мария Велчева, Рая Цонева",
-            title: "Онлайн Магазин",
-            description: "Уеб сайт за продажба на електроника с количка за пазаруване и система за плащане.",
+            title: "My style",
+            description: "Сайт, който представя представя персонализирани модни тенденции и стилове.",
             tags: ["HTML", "CSS", "JavaScript", "E-commerce"],
             url: "#"
         },
