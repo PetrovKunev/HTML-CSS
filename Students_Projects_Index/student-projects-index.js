@@ -65,7 +65,7 @@ const projects = {
         },
         {
             name: "Ели Венева, Ирина Кожухарова, Леа Цолова",
-            title: "Future Fashion",
+            title: "Softblush Beauty",
             description: "Нашия сайт предлага различни козметични продукти, като грим и грижа за кожата. Има богат избор от висококачествени артикули, с които да изглеждате прекрасно. ",
             tags: ["HTML", "CSS"],
             url: "https://softblushbeauty.free.bg/"
